@@ -4,42 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div>profile</div>
+    <header id="header" class="wrapper">
+        <nav class="container">
+            <h1>profile</h1>
             <div>About</div>
             <div>Bicycle</div>
         </nav>
     </header>
     <main>
-        <img src="img/mainvisual.jpg" alt="メインビジュアル">
-        <section>
+        <div id="mainvisual">
+            <img src="img/mainvisual.jpg" alt="メインビジュアル">
+        </div>
+        <section id="about" class="wrapper">
             <h2>About</h2>
+            <div>
             <img src="img/about.jpg" alt="人の写真">
             <h3>KAKERU MIYAICHI</h3>
             <p>テキストテキストテキストテキストテキスト</p>
+            </div>
         </section>
-        <section>
+        <section id="bicycle" class="wrapper">
             <h2>Bicycle</h2>
-            <div>
-                <img src="img/bicycle1.jpg" alt="自転車1">
-                <h3>タイトルタイトル</h3>
-                <p>テキストテキスト</p>
-            </div>
-            <div>
-                <img src="img/bicycle2.jpg" alt="自転車2">
-                <h3>タイトルタイトル</h3>
-                <p>テキストテキスト</p>
-            </div>
-            <div>
-                <img src="img/bicycle3.jpg" alt="自転車3">
-                <h3>タイトルタイトル</h3>
-                <p>テキストテキスト</p>
-            </div>
+            <ul>
+                <li>
+                    <img src="img/bicycle1.jpg" alt="自転車1">
+                    <h3>タイトル</h3>
+                    <p>テキストテキストテキスト</p>
+                </li>
+                <li>
+                    <img src="img/bicycle2.jpg" alt="自転車2">
+                    <h3>タイトル</h3>
+                    <p>テキストテキストテキスト</p>
+                </li>
+                <li>
+                    <img src="img/bicycle3.jpg" alt="自転車3">
+                    <h3>タイトル</h3>
+                    <p>テキストテキストテキスト</p>
+                </li>
+            </ul>
         </section>
-        <footer>
+        <footer id="footer">
             <p>&copy;2020 Profile</p>
         </footer>
     </main>
